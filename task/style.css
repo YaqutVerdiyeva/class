@@ -1,0 +1,65 @@
+#header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(110, 165, 147);
+}
+h1,
+h2 {
+  text-align: center;
+}
+#firstname {
+  color: blue;
+}
+#lastname {
+  color: blueviolet;
+}
+#Email {
+  color: green;
+}
+#password {
+  color: yellowgreen;
+}
+.btn {
+  background-color: brown;
+  color: rgb(97, 172, 116);
+}
+#hello input:focus {
+  background-color: rgb(12, 12, 12);
+}
+#hello input:focus::placeholder {
+  color: red;
+}
+#hello button:focus {
+  background-color: blue;
+}
+#header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+}
+.button{
+    background-color: greenyellow;
+}
+#date {
+    color: blueviolet;
+}
+#age {
+    color: brown;
+}
+#header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(72, 150, 124)
+}
+#cities {
+    color: brown;
+}
+#lorem1 {
+    color: blue;
+}
+#lorem2 {
+    color: brown;
+}

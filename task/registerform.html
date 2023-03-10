@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Css Selectors</h1>
+
+    <header id="header1">
+      <section id="hello">
+        <h2>Register Form</h2>
+        <br />
+        <form action="">
+          <label for="firstname" id="firstname">First name:</label><br />
+          <input
+            type="text"
+            name=""
+            id="firstname"
+            required
+            size="50"
+            placeholder="Enter a name..."
+            minlength="3"
+          />
+          <br /><br />
+          <label for="lastname" id="lastname">Last name:</label><br />
+          <input
+            type="text"
+            name=""
+            id="lastname"
+            required
+            size="50"
+            placeholder="Enter a surname..."
+            minlength="6"
+          />
+          <br /><br />
+          <label for="Email" id="Email">Email:</label><br />
+          <input
+            type="email"
+            name=""
+            id="Email"
+            size="50"
+            placeholder="Enter an email..."
+            required
+            minlength="6"
+          />
+          <br /><br />
+          <label for="password" id="password">Password</label><br />
+          <input
+            type="password"
+            name=""
+            id="password"
+            size="50"
+            placeholder="Enter a password..."
+            required
+            minlength="9"
+          />
+          <br /><br />
+
+          <input type="checkbox" name="" id="accept" required />
+          <label for="accept">Accept all requirments</label>
+          <br /><br />
+          <input type="radio" name="hello" id="Teacher" required />
+          <label for="Teacher">Teacher</label>
+          <input type="radio" name="hello" id="Student" required />
+          <label for="Student">Student</label>
+          <input type="radio" name="hello" id="Other" required />
+          <label for="Other">Other</label>
+          <br /><br />
+          <button class="btn">Sign up</button>
+        </form>
+        <p>
+          Register maybe later:
+          <a href="#hello2">Skip</a>
+        </p>
+      </section>
+    </header>
+    <br />
+
+    <header id="header2">
+      <section id="hello2">
+        <h2>User Info</h2>
+        <form action="">
+          <h3>Who are u?</h3>
+          <textarea
+            name=""
+            id=""
+            cols="100"
+            rows="10"
+            placeholder="Add some info about yourself..."
+            required
+          ></textarea>
+          <br />
+          <input type="file" required />
+          <br /><br />
+          <label for="date" id="date">Choose date:</label>
+          <input type="date" id="date" required />
+          <br /><br />
+          <label for="age" id="age">Age:</label>
+          <input type="number" id="age" placeholder="your age..." required />
+          <br /><br />
+          <button class="button">Save</button>
+        </form>
+        <br />
+        <p>
+          Maybe later):
+          <a href="#header3">Skip</a>
+        </p>
+        <p>
+          Go back and sign in:
+          <a href="#header1">Sign in</a>
+        </p>
+      </section>
+    </header>
+    <br />
+
+    <header id="header3">
+      <section id="hello3">
+        <h1>Change tag's color without class name and id.</h1>
+        <br />
+        <h3 id="cities">Cities</h3>
+        <br />
+        <ul>
+          <li>Shusha</li>
+          <li>Qusar</li>
+          <li>Baku</li>
+        </ul>
+        <ol type="1">
+          <li>Ismailli</li>
+          <li>Shamaki</li>
+          <li>Sirvan</li>
+          <li>Qazag</li>
+        </ol>
+        <p id="lorem1">Lorem1</p>
+        <p id="lorem2">Lorem2</p>
+        <p>
+            <a href="#header1">Go back</a>
+            to first section!
+        </p>
+      </section>
+    </header>
+  </body>
+</html>
