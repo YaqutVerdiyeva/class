@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+nav ul li {
+    
+}
+#div {
+    background-image: url(./image/photo.jpg);
+    height: 100vh;
+    display: flex;
+  
+
+}
+#div1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+color: white;
+}
+footer div ul {
+display: flex;
+
+}
+
+
